@@ -107,7 +107,7 @@ Créé et exporté `LanguageContext` dans `App.js`
 _Votre réponse pour l'exercice 3 :_
 
 - useDebounce : Retarde l'exécution d'une fonction pour éviter les appels réseau excessifs lors de la saisie.
-useLocalStorage : Permet de sauvegarder et récupérer des valeurs dans le localStorage
+- useLocalStorage : Permet de sauvegarder et récupérer des valeurs dans le localStorage
 
 **Captures d'écran**
 
@@ -127,6 +127,13 @@ _Votre réponse pour l'exercice 4 :_
 Expliquez votre solution ici
 [Ajoutez vos captures d'écran]
 ```
+
+- 4.1 l'Ajout du bouton de rechargement permet de relancer l’appel API.
+
+**Captures d'écran**
+
+![1](images/image6.png)
+
 
 ## Rendu
 
