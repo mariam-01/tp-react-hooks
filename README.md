@@ -66,8 +66,6 @@ Expliquez votre solution ici
 ![1](images/image1.png)
 ![2](images/image2.png)
 
-
-
 **Difficultés rencontrées et solutions apportées**
 
 - Problème de rafraîchissement excessif des appels API → Résolu avec debounce
@@ -82,10 +80,21 @@ Expliquez votre solution ici
 - [ ] 2.3 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 2 :_
-```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+Créé et exporté `LanguageContext` dans `App.js`
+- Enveloppé l’application avec `<LanguageContext.Provider>`
+- Ajouté un sélecteur de langue et stocké le choix dans `useState` ou `useLocalStorage`
+- Utilisé `useContext(LanguageContext)` dans les composants pour afficher les traductions
+
+**Captures d'écran**
+
+![1](images/image3.png)
+![2](images/image4.png)
+
+**Difficultés rencontrées et solutions apportées**
+
+- Gestion du re-render sur changement de contexte → Vérifié que les providers englobent tous les composants
+- Mise en place d’un fallback de langue par défaut
+
 
 ### Exercice 3 : Hooks Personnalisés
 #### Objectif : Créer des hooks réutilisables
