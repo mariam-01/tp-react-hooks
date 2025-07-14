@@ -9,7 +9,7 @@ const LanguageSelector = () => {
   };
 
   return (
-    <select value={language} onChange={handleChangeLanguage}>
+    <select value={language} onChange={(e) => changeLanguage(e.target.value)}>
       <option value="fr">Français</option>
       <option value="en">English</option>
     </select>

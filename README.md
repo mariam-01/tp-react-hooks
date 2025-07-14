@@ -105,10 +105,15 @@ Créé et exporté `LanguageContext` dans `App.js`
 - [ ] 3.3 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 3 :_
-```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+
+- useDebounce : Retarde l'exécution d'une fonction pour éviter les appels réseau excessifs lors de la saisie.
+useLocalStorage : Permet de sauvegarder et récupérer des valeurs dans le localStorage
+
+**Captures d'écran**
+
+![1](images/image5.png)
+
+
 
 ### Exercice 4 : Gestion Asynchrone et Pagination
 #### Objectif : Gérer le chargement et la pagination
