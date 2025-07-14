@@ -123,10 +123,6 @@ _Votre réponse pour l'exercice 3 :_
 - [ ] 4.3 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 4 :_
-```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
 
 - 4.1 l'Ajout du bouton de rechargement permet de relancer l’appel API.
 
@@ -134,6 +130,18 @@ Expliquez votre solution ici
 
 ![1](images/image6.png)
 
+- 4.2 Implémentation de la pagination
+- Géré la pagination avec `currentPage`, `pageSize` et `totalPages`
+- Adapté l’URL de l’API et mis à jour les dépendances de `useEffect`
+- Intégré les contrôles `Précédent` et `Suivant` dans la barre de pagination
+
+**Captures d'écran**
+![1](images/image7.png)
+![1](images/image8.png)
+
+**Difficultés rencontrées et solutions apportées**
+- Calcul du nombre total de pages → Lecture de data.total retourné par l’API
+- Désactivation des boutons aux bornes (page 1 et page finale)
 
 ## Rendu
 
