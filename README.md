@@ -81,9 +81,10 @@ Expliquez votre solution ici
 
 _Votre réponse pour l'exercice 2 :_
 Créé et exporté `LanguageContext` dans `App.js`
-- Enveloppé l’application avec `<LanguageContext.Provider>`
-- Ajouté un sélecteur de langue et stocké le choix dans `useState` ou `useLocalStorage`
-- Utilisé `useContext(LanguageContext)` dans les composants pour afficher les traductions
+- Stocke la langue actuelle (language) et une fonction changeLanguage pour la mise à jour
+- Ajouté un sélecteur de langue pour accéder à language et changeLanguage
+- Mise à jour de la langue avec setLanguage()
+
 
 **Captures d'écran**
 
