@@ -52,10 +52,27 @@ Pour chaque exercice :
 - [ ] 1.3 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 1 :_
-```
 Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+
+**Explication de la solution**
+
+*Expliquez ici comment vous avez :*
+
+- Liaison de l'état du champ de recherche (`searchTerm`) à l'appel de l'API
+- Utilisation du hook `useDebounce` pour différer la requête
+- Mise à jour du composant `ProductList` avec les résultats filtrés
+
+**Captures d'écran**
+![1](images/image1.png)
+![2](images/image2.png)
+
+
+
+**Difficultés rencontrées et solutions apportées**
+
+- Problème de rafraîchissement excessif des appels API → Résolu avec debounce
+- Ajustement du délai de debounce pour un bon compromis réactivité/performance
+
 
 ### Exercice 2 : Context et Internationalisation
 #### Objectif : Gérer les préférences de langue
